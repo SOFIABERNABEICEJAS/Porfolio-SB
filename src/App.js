@@ -1,10 +1,13 @@
-function App() {
+import Nav from "./componentes/Nav";
+import Conocimientos from "./componentes/Conocimientos";
+
+const App = () => {
 	return (
 		<div>
 			<Nav />
-			<p>Esto es App funciona??</p>
+			<Conocimientos />
 		</div>
 	);
-}
+};
 
 export default App;
