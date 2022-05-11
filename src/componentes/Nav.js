@@ -5,11 +5,8 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Stack from "@mui/material/Stack";
-<<<<<<< HEAD
 import Box from "@mui/material/Box";
 
-=======
->>>>>>> 1a43a083f0467019415659a02e609ab96abfa010
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 const darkTheme = createTheme({
@@ -24,17 +21,11 @@ const Nav = () => {
 	return (
 		<Stack spacing={2} sx={{ flexGrow: 1 }}>
 			<ThemeProvider theme={darkTheme}>
-<<<<<<< HEAD
-				gnItem
 				<AppBar
 					position="fixed"
 					color="primary"
 					sx={{ alignItems: "flex-end", p: 1 }}
 				>
-=======
-				<AppBar position="fixed" color="primary">
-
->>>>>>> 1a43a083f0467019415659a02e609ab96abfa010
 					<Toolbar>
 						<Box
 							sx={{
