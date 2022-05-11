@@ -4,21 +4,23 @@ import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Link } from "react-router-dom";
+import Stack from "@mui/material/Stack";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-const Nav = () => {
-	const darkTheme = createTheme({
-		palette: {
-			mode: "dark",
-			primary: {
-				main: "#1976d2",
-			},
+
+const darkTheme = createTheme({
+	palette: {
+		mode: "dark",
+		primary: {
+			main: "#1976d2",
 		},
-	});
+	},
+});
+const Nav = () => {
 	return (
 		<Stack spacing={2} sx={{ flexGrow: 1 }}>
-			<ThemeProvider>
-				<AppBar position="fixed">
+			<ThemeProvider theme={darkTheme}>
+				<AppBar position="fixed" color="primary">
+
 					<Toolbar>
 						<IconButton
 							size="large"
@@ -30,9 +32,7 @@ const Nav = () => {
 							<MenuIcon />
 						</IconButton>
 
-						<Button color="inherit" component={Link} to="/">
-							Hola!
-						</Button>
+						<Button color="inherit">Hola!</Button>
 						<Button color="inherit">Conocimientos</Button>
 						<Button color="inherit">Proyectos</Button>
 						<Button color="inherit">Contacto</Button>

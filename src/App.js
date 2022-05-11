@@ -1,10 +1,8 @@
-import Nav from "./componentes/Nav";
-
 function App() {
 	return (
 		<div>
-			<p>esto es app</p>
 			<Nav />
+			<p>Esto es App funciona??</p>
 		</div>
 	);
 }
