@@ -1,6 +1,3 @@
-import * as React from "react";
-import Nav from "./componentes/Nav";
-
 function App() {
 	return (
 		<div>
