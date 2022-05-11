@@ -5,8 +5,6 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Stack from "@mui/material/Stack";
-
-import { Link } from "react-router-dom";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 const darkTheme = createTheme({
@@ -22,6 +20,7 @@ const Nav = () => {
 		<Stack spacing={2} sx={{ flexGrow: 1 }}>
 			<ThemeProvider theme={darkTheme}>
 				<AppBar position="fixed" color="primary">
+
 					<Toolbar>
 						<IconButton
 							size="large"
