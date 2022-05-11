@@ -1,16 +1,18 @@
 import * as React from "react";
 import Card from "@mui/material/Card";
-
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid";
-import porfolio from "../img/porfolio.png";
-import generadorDeMemes from "../img/generadorDeMemes.png";
-import ahorradas from "../img/ahorradas.png";
-import pokemon from "../img/pokemon.png";
-import rickAndMorty from "../img/rickAndMorty.png";
-import netflixSB from "../img/netflixSB.png";
+import html from "../img/conocimientos/html.png";
+import css from "../img/conocimientos/css.png";
+import js from "../img/conocimientos/js.png";
+import sass from "../img/conocimientos/sass.png";
+import react from "../img/conocimientos/react.png";
+import mui from "../img/conocimientos/mui.png";
+import bulma from "../img/conocimientos/bulma.png";
+import git from "../img/conocimientos/git.png";
+import github from "../img/conocimientos/github.png";
 
 const Conocimientos = () => {
 	return (
@@ -21,24 +23,30 @@ const Conocimientos = () => {
 				justifyContent: "center",
 			}}
 		>
+			<Typography
+				variant="h3"
+				sx={{
+					mt: 14,
+					display: "flex",
+					justifyContent: "center",
+				}}
+			>
+				CONOCIMIENTOS
+			</Typography>
+
 			<Grid
 				item
 				xs={10}
 				sx={{
-					mt: 14,
+					mt: 6,
 					display: "flex",
 					justifyContent: "center",
 					flexWrap: "wrap",
 					boxShadow: 1,
 				}}
 			>
-				<Card sx={{ minWidth: 275, m: 4 }}>
-					<CardMedia
-						component="img"
-						height="140"
-						src={porfolio}
-						alt="porfolio"
-					/>
+				<Card sx={{ m: 4, width: 150 }}>
+					<CardMedia component="img" height="130" src={html} alt="html" />
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -47,17 +55,12 @@ const Conocimientos = () => {
 								justifyContent: "center",
 							}}
 						>
-							Porfolio
+							HTML
 						</Typography>
 					</CardContent>
 				</Card>
-				<Card sx={{ minWidth: 275, m: 4 }}>
-					<CardMedia
-						component="img"
-						height="140"
-						src={generadorDeMemes}
-						alt="generador de memes"
-					/>
+				<Card sx={{ width: 150, m: 4 }}>
+					<CardMedia component="img" height="140" src={css} alt="CSS" />
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -66,17 +69,12 @@ const Conocimientos = () => {
 								justifyContent: "center",
 							}}
 						>
-							Generador de memes
+							CSS{" "}
 						</Typography>
 					</CardContent>
 				</Card>
-				<Card sx={{ minWidth: 275, m: 4 }}>
-					<CardMedia
-						component="img"
-						height="140"
-						src={ahorradas}
-						alt="ahorradas"
-					/>
+				<Card sx={{ width: 150, m: 4 }}>
+					<CardMedia component="img" height="140" src={js} alt="js" />
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -85,12 +83,12 @@ const Conocimientos = () => {
 								justifyContent: "center",
 							}}
 						>
-							Ahorradas
+							JS
 						</Typography>
 					</CardContent>
 				</Card>
-				<Card sx={{ minWidth: 275, m: 4 }}>
-					<CardMedia component="img" height="140" src={pokemon} alt="Pokemon" />
+				<Card sx={{ width: 150, m: 4 }}>
+					<CardMedia component="img" height="140" src={sass} alt="sass" />
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -99,17 +97,12 @@ const Conocimientos = () => {
 								justifyContent: "center",
 							}}
 						>
-							Pokemon
+							SASS
 						</Typography>
 					</CardContent>
 				</Card>
-				<Card sx={{ minWidth: 275, m: 4 }}>
-					<CardMedia
-						component="img"
-						height="140"
-						src={rickAndMorty}
-						alt="rickAndMorty"
-					/>
+				<Card sx={{ width: 150, m: 4 }}>
+					<CardMedia component="img" height="140" src={react} alt="react" />
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -118,17 +111,13 @@ const Conocimientos = () => {
 								justifyContent: "center",
 							}}
 						>
-							Rick And Morty
+							REACT
 						</Typography>
 					</CardContent>
 				</Card>
-				<Card sx={{ minWidth: 275, m: 4 }}>
-					<CardMedia
-						component="img"
-						height="140"
-						src={netflixSB}
-						alt="netflixSB"
-					/>
+
+				<Card sx={{ width: 150, m: 4 }}>
+					<CardMedia component="img" height="140" src={bulma} alt="bulma" />
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -137,7 +126,49 @@ const Conocimientos = () => {
 								justifyContent: "center",
 							}}
 						>
-							Netflix-SB
+							BULMA
+						</Typography>
+					</CardContent>
+				</Card>
+				<Card sx={{ width: 150, m: 4 }}>
+					<CardMedia component="img" height="140" src={git} alt="git" />
+					<CardContent>
+						<Typography
+							variant="h6"
+							sx={{
+								display: "flex",
+								justifyContent: "center",
+							}}
+						>
+							GIT
+						</Typography>
+					</CardContent>
+				</Card>
+				<Card sx={{ width: 150, m: 4 }}>
+					<CardMedia component="img" height="140" src={github} alt="github" />
+					<CardContent>
+						<Typography
+							variant="h6"
+							sx={{
+								display: "flex",
+								justifyContent: "center",
+							}}
+						>
+							GITHUB
+						</Typography>
+					</CardContent>
+				</Card>
+				<Card sx={{ width: 150, m: 4 }}>
+					<CardMedia component="img" height="140" src={mui} alt="material ui" />
+					<CardContent>
+						<Typography
+							variant="h6"
+							sx={{
+								display: "flex",
+								justifyContent: "center",
+							}}
+						>
+							MATERIAL UI
 						</Typography>
 					</CardContent>
 				</Card>
