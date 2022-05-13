@@ -20,18 +20,34 @@ const Proyectos = () => {
 				justifyContent: "center",
 			}}
 		>
-			<Grid
-				item
-				xs={10}
+			<Typography
+				variant="h3"
 				sx={{
 					mt: 14,
 					display: "flex",
 					justifyContent: "center",
-					flexWrap: "wrap",
-					boxShadow: 1,
 				}}
 			>
-				<Card sx={{ minWidth: 275, m: 4 }}>
+				PROYECTOS
+			</Typography>
+			<Grid
+				item
+				xs={10}
+				sx={{
+					mt: 4,
+					display: "flex",
+					justifyContent: "center",
+					flexWrap: "wrap",
+					boxShadow: 1,
+					backgroundColor: "#eeeeee",
+				}}
+			>
+				<Card
+					sx={{
+						minWidth: 275,
+						m: 4,
+					}}
+				>
 					<CardMedia
 						component="img"
 						height="140"
