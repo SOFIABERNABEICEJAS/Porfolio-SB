@@ -10,11 +10,14 @@ import ahorradas from "../img/proyectos/ahorradas.png";
 import pokemon from "../img/proyectos/pokemon.png";
 import rickAndMorty from "../img/proyectos/rickAndMorty.png";
 import netflixSB from "../img/proyectos/netflixSB.png";
+import Link from "@mui/material/Link";
+import TarjetaProyecto from "./TarjetaProyecto";
 
 const Proyectos = () => {
 	return (
 		<Grid
 			container
+			id="proyectos"
 			sx={{
 				display: "flex",
 				justifyContent: "center",
@@ -39,123 +42,40 @@ const Proyectos = () => {
 					justifyContent: "center",
 					flexWrap: "wrap",
 					boxShadow: 1,
-					backgroundColor: "#eeeeee",
+					backgroundColor: "#f5f5f5",
 				}}
 			>
-				<Card
-					sx={{
-						minWidth: 275,
-						m: 4,
-					}}
-				>
-					<CardMedia
-						component="img"
-						height="140"
-						src={porfolio}
-						alt="porfolio"
-					/>
-					<CardContent>
-						<Typography
-							variant="h6"
-							sx={{
-								display: "flex",
-								justifyContent: "center",
-							}}
-						>
-							Porfolio
-						</Typography>
-					</CardContent>
-				</Card>
-				<Card sx={{ minWidth: 275, m: 4 }}>
-					<CardMedia
-						component="img"
-						height="140"
-						src={generadorDeMemes}
-						alt="generador de memes"
-					/>
-					<CardContent>
-						<Typography
-							variant="h6"
-							sx={{
-								display: "flex",
-								justifyContent: "center",
-							}}
-						>
-							Generador de memes
-						</Typography>
-					</CardContent>
-				</Card>
-				<Card sx={{ minWidth: 275, m: 4 }}>
-					<CardMedia
-						component="img"
-						height="140"
-						src={ahorradas}
-						alt="ahorradas"
-					/>
-					<CardContent>
-						<Typography
-							variant="h6"
-							sx={{
-								display: "flex",
-								justifyContent: "center",
-							}}
-						>
-							Ahorradas
-						</Typography>
-					</CardContent>
-				</Card>
-				<Card sx={{ minWidth: 275, m: 4 }}>
-					<CardMedia component="img" height="140" src={pokemon} alt="Pokemon" />
-					<CardContent>
-						<Typography
-							variant="h6"
-							sx={{
-								display: "flex",
-								justifyContent: "center",
-							}}
-						>
-							Pokemon
-						</Typography>
-					</CardContent>
-				</Card>
-				<Card sx={{ minWidth: 275, m: 4 }}>
-					<CardMedia
-						component="img"
-						height="140"
-						src={rickAndMorty}
-						alt="rickAndMorty"
-					/>
-					<CardContent>
-						<Typography
-							variant="h6"
-							sx={{
-								display: "flex",
-								justifyContent: "center",
-							}}
-						>
-							Rick And Morty
-						</Typography>
-					</CardContent>
-				</Card>
-				<Card sx={{ minWidth: 275, m: 4 }}>
-					<CardMedia
-						component="img"
-						height="140"
-						src={netflixSB}
-						alt="netflixSB"
-					/>
-					<CardContent>
-						<Typography
-							variant="h6"
-							sx={{
-								display: "flex",
-								justifyContent: "center",
-							}}
-						>
-							Netflix-SB
-						</Typography>
-					</CardContent>
-				</Card>
+				<TarjetaProyecto
+					titulo="Porfolio"
+					imagen={porfolio}
+					link="https://github.com/SOFIABERNABEICEJAS/Portfolio"
+				/>
+				<TarjetaProyecto
+					titulo="Generador de memes"
+					imagen={generadorDeMemes}
+					link="https://sofiabernabeicejas.github.io/Generador-de-memes/"
+				/>
+				<TarjetaProyecto
+					titulo="Ahorradas"
+					imagen={ahorradas}
+					link="https://sofiabernabeicejas.github.io/AhorrADAs/"
+				/>
+				<TarjetaProyecto
+					titulo="Pokemon"
+					imagen={pokemon}
+					link="https://smeraldaka0s.github.io/Pokemon-TCG-API/"
+				/>
+				<TarjetaProyecto
+					titulo="Rick And Morty"
+					imagen={rickAndMorty}
+					link="https://main--rick-and-morty-react-sass.netlify.app/"
+				/>
+
+				<TarjetaProyecto
+					titulo="Netflix-SB"
+					imagen={netflixSB}
+					link="https://tpfinalnetflix-sb.netlify.app//"
+				/>
 			</Grid>
 		</Grid>
 	);

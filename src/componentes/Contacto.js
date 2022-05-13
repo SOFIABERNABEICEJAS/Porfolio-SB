@@ -8,10 +8,12 @@ import Chip from "@mui/material/Chip";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+
 const Contacto = () => {
 	return (
 		<Grid
 			container
+			id="contacto"
 			sx={{
 				display: "flex",
 				justifyContent: "center",
@@ -43,10 +45,6 @@ const Contacto = () => {
 				}}
 			>
 				<Grid
-					xs={8}
-					md={4}
-					lg={4}
-					xl={4}
 					sx={{
 						m: 2,
 						display: "flex",
@@ -63,9 +61,10 @@ const Contacto = () => {
 					>
 						CONTACTAME:
 					</Typography>
+
 					<Link
 						href="https://www.linkedin.com/in/sofia-bernabei/"
-						underline="hover"
+						underline="none"
 						sx={{
 							display: "flex",
 							justifyContent: "center",
@@ -75,6 +74,9 @@ const Contacto = () => {
 						<Chip
 							sx={{
 								p: 2,
+								":hover": {
+									boxShadow: 1,
+								},
 							}}
 							icon={<LinkedInIcon fontSize="large" />}
 							label="LinkeIn: in/sofia-bernabei"
@@ -83,7 +85,7 @@ const Contacto = () => {
 					<Link
 						href="https://github.com/SOFIABERNABEICEJAS"
 						target="_blank"
-						underline="hover"
+						underline="none"
 						sx={{
 							display: "flex",
 							justifyContent: "center",
@@ -93,6 +95,9 @@ const Contacto = () => {
 						<Chip
 							sx={{
 								p: 2,
+								":hover": {
+									boxShadow: 1,
+								},
 							}}
 							icon={<GitHubIcon fontSize="large" />}
 							label="GitHub: /SOFIABERNABEI"
@@ -100,7 +105,7 @@ const Contacto = () => {
 					</Link>
 					<Link
 						href="https://www.instagram.com/sofibernabei/"
-						underline="hover"
+						underline="none"
 						sx={{
 							display: "flex",
 							justifyContent: "center",
@@ -110,6 +115,9 @@ const Contacto = () => {
 						<Chip
 							sx={{
 								p: 2,
+								":hover": {
+									boxShadow: 1,
+								},
 							}}
 							icon={<InstagramIcon fontSize="large" />}
 							label="Instagram: /sofibernabei"

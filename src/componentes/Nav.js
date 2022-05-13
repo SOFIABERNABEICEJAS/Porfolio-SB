@@ -48,16 +48,16 @@ const Nav = () => {
 							},
 						}}
 					>
-						<Button href="#" color="inherit">
+						<Button href="#sobremi" color="inherit">
 							Sobre mi
 						</Button>
-						<Button color="inherit" sx={{ m: 1 }}>
+						<Button href="#proyectos" color="inherit" sx={{ m: 1 }}>
 							Proyectos
 						</Button>
-						<Button color="inherit" sx={{ m: 1 }}>
+						<Button href="#conocimientos" color="inherit" sx={{ m: 1 }}>
 							Conocimientos
 						</Button>
-						<Button color="inherit" sx={{ m: 1 }}>
+						<Button href="#contacto" color="inherit" sx={{ m: 1 }}>
 							Contacto
 						</Button>
 					</Box>
