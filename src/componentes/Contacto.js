@@ -65,15 +65,16 @@ const Contacto = () => {
 					</Typography>
 					<Link
 						href="https://www.linkedin.com/in/sofia-bernabei/"
-						underline="none"
+						underline="hover"
 						sx={{
 							display: "flex",
 							justifyContent: "center",
+							m: 3,
 						}}
 					>
 						<Chip
 							sx={{
-								m: 2,
+								p: 2,
 							}}
 							icon={<LinkedInIcon fontSize="large" />}
 							label="LinkeIn: in/sofia-bernabei"
@@ -82,15 +83,16 @@ const Contacto = () => {
 					<Link
 						href="https://github.com/SOFIABERNABEICEJAS"
 						target="_blank"
-						underline="none"
+						underline="hover"
 						sx={{
 							display: "flex",
 							justifyContent: "center",
+							m: 3,
 						}}
 					>
 						<Chip
 							sx={{
-								m: 2,
+								p: 2,
 							}}
 							icon={<GitHubIcon fontSize="large" />}
 							label="GitHub: /SOFIABERNABEI"
@@ -98,15 +100,16 @@ const Contacto = () => {
 					</Link>
 					<Link
 						href="https://www.instagram.com/sofibernabei/"
-						underline="none"
+						underline="hover"
 						sx={{
 							display: "flex",
 							justifyContent: "center",
+							m: 3,
 						}}
 					>
 						<Chip
 							sx={{
-								m: 2,
+								p: 2,
 							}}
 							icon={<InstagramIcon fontSize="large" />}
 							label="Instagram: /sofibernabei"
@@ -122,7 +125,7 @@ const Contacto = () => {
 					sx={{
 						display: "flex",
 						flexDirection: "column",
-						m: 1,
+						m: 2,
 					}}
 					noValidate
 					autoComplete="off"
