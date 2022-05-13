@@ -38,19 +38,29 @@ const Conocimientos = () => {
 				item
 				xs={10}
 				sx={{
+					mt: 4,
 					mt: 6,
 					display: "flex",
 					justifyContent: "center",
 					flexWrap: "wrap",
 					boxShadow: 1,
+					backgroundColor: "#eeeeee",
 				}}
 			>
-				<Card sx={{ m: 4, width: 150 }}>
-					<CardMedia component="img" height="130" src={html} alt="html" />
+				<Card sx={{ m: 4, pt: 2, width: 150, height: 150, borderRadius: 500 }}>
+					<CardMedia
+						component="img"
+						height="100"
+						widht="40"
+						src={html}
+						alt="html"
+					/>
 					<CardContent>
 						<Typography
 							variant="h6"
 							sx={{
+								margin: 0,
+								padding: 0,
 								display: "flex",
 								justifyContent: "center",
 							}}
@@ -59,8 +69,14 @@ const Conocimientos = () => {
 						</Typography>
 					</CardContent>
 				</Card>
-				<Card sx={{ width: 150, m: 4 }}>
-					<CardMedia component="img" height="140" src={css} alt="CSS" />
+				<Card sx={{ m: 4, pt: 2, width: 150, height: 150, borderRadius: 500 }}>
+					<CardMedia
+						component="img"
+						height="100"
+						widht="50"
+						src={css}
+						alt="CSS"
+					/>
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -73,8 +89,22 @@ const Conocimientos = () => {
 						</Typography>
 					</CardContent>
 				</Card>
-				<Card sx={{ width: 150, m: 4 }}>
-					<CardMedia component="img" height="140" src={js} alt="js" />
+				<Card
+					sx={{
+						m: 4,
+						pt: 3,
+						width: 150,
+						height: 150,
+						borderRadius: 500,
+					}}
+				>
+					<CardMedia
+						component="img"
+						height="100"
+						widht="50"
+						src={js}
+						alt="js"
+					/>
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -87,8 +117,14 @@ const Conocimientos = () => {
 						</Typography>
 					</CardContent>
 				</Card>
-				<Card sx={{ width: 150, m: 4 }}>
-					<CardMedia component="img" height="140" src={sass} alt="sass" />
+				<Card sx={{ m: 4, pt: 3, width: 150, height: 150, borderRadius: 500 }}>
+					<CardMedia
+						component="img"
+						height="100"
+						widht="50"
+						src={sass}
+						alt="sass"
+					/>
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -101,8 +137,14 @@ const Conocimientos = () => {
 						</Typography>
 					</CardContent>
 				</Card>
-				<Card sx={{ width: 150, m: 4 }}>
-					<CardMedia component="img" height="140" src={react} alt="react" />
+				<Card sx={{ m: 4, pt: 3, width: 150, height: 150, borderRadius: 500 }}>
+					<CardMedia
+						component="img"
+						height="100"
+						widht="50"
+						src={react}
+						alt="react"
+					/>
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -116,8 +158,14 @@ const Conocimientos = () => {
 					</CardContent>
 				</Card>
 
-				<Card sx={{ width: 150, m: 4 }}>
-					<CardMedia component="img" height="140" src={bulma} alt="bulma" />
+				<Card sx={{ m: 4, pt: 3, width: 150, height: 150, borderRadius: 500 }}>
+					<CardMedia
+						component="img"
+						height="100"
+						widht="50"
+						src={bulma}
+						alt="bulma"
+					/>
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -130,8 +178,14 @@ const Conocimientos = () => {
 						</Typography>
 					</CardContent>
 				</Card>
-				<Card sx={{ width: 150, m: 4 }}>
-					<CardMedia component="img" height="140" src={git} alt="git" />
+				<Card sx={{ m: 4, pt: 3, width: 150, height: 150, borderRadius: 500 }}>
+					<CardMedia
+						component="img"
+						height="100"
+						widht="50"
+						src={git}
+						alt="git"
+					/>
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -144,8 +198,14 @@ const Conocimientos = () => {
 						</Typography>
 					</CardContent>
 				</Card>
-				<Card sx={{ width: 150, m: 4 }}>
-					<CardMedia component="img" height="140" src={github} alt="github" />
+				<Card sx={{ m: 4, pt: 3, width: 150, height: 150, borderRadius: 500 }}>
+					<CardMedia
+						component="img"
+						height="100"
+						widht="50"
+						src={github}
+						alt="github"
+					/>
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -158,8 +218,14 @@ const Conocimientos = () => {
 						</Typography>
 					</CardContent>
 				</Card>
-				<Card sx={{ width: 150, m: 4 }}>
-					<CardMedia component="img" height="140" src={mui} alt="material ui" />
+				<Card sx={{ m: 4, pt: 3, width: 150, height: 150, borderRadius: 500 }}>
+					<CardMedia
+						component="img"
+						height="100"
+						widht="50"
+						src={mui}
+						alt="material ui"
+					/>
 					<CardContent>
 						<Typography
 							variant="h6"
@@ -168,7 +234,7 @@ const Conocimientos = () => {
 								justifyContent: "center",
 							}}
 						>
-							MATERIAL UI
+							MUI
 						</Typography>
 					</CardContent>
 				</Card>
