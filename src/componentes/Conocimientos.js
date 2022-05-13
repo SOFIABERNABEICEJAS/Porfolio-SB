@@ -18,6 +18,7 @@ const Conocimientos = () => {
 	return (
 		<Grid
 			container
+			id="conocimientos"
 			sx={{
 				display: "flex",
 				justifyContent: "center",
@@ -44,7 +45,7 @@ const Conocimientos = () => {
 					justifyContent: "center",
 					flexWrap: "wrap",
 					boxShadow: 1,
-					backgroundColor: "#eeeeee",
+					backgroundColor: "#f5f5f5",
 				}}
 			>
 				<Card sx={{ m: 4, pt: 2, width: 150, height: 150, borderRadius: 500 }}>
