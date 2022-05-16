@@ -48,7 +48,7 @@ const Nav = () => {
 							},
 						}}
 					>
-						<Button href="#sobremi" color="inherit">
+						<Button href="#sobreMi" color="inherit">
 							Sobre mi
 						</Button>
 						<Button href="#proyectos" color="inherit" sx={{ m: 1 }}>

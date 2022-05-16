@@ -8,7 +8,7 @@ import ahorradas from "../img/proyectos/ahorradas.png";
 import pokemon from "../img/proyectos/pokemon.png";
 import rickAndMorty from "../img/proyectos/rickAndMorty.png";
 import netflixSB from "../img/proyectos/netflixSB.png";
-import Link from "@mui/material/Link";
+
 import TarjetaProyecto from "./TarjetaProyecto";
 
 const Proyectos = () => {
@@ -46,6 +46,7 @@ const Proyectos = () => {
 							mb: 8,
 							display: "flex",
 							justifyContent: "center",
+							color: "#424242",
 						}}
 					>
 						PROYECTOS
