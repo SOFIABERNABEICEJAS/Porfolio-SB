@@ -33,6 +33,7 @@ const Conocimientos = () => {
 					flexWrap: "wrap",
 					boxShadow: 1,
 					backgroundColor: "#f5f5f5",
+					color: "#424242",
 				}}
 			>
 				<Box

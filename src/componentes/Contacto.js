@@ -26,9 +26,10 @@ const Contacto = () => {
 					mt: 14,
 					display: "flex",
 					justifyContent: "center",
+					color: "#424242",
 				}}
 			>
-				CONTACTAME
+				CONTACTO
 			</Typography>
 			<Grid
 				item
