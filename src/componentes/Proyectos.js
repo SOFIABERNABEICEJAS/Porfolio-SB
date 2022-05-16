@@ -1,8 +1,6 @@
 import * as React from "react";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
+import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid";
 import porfolio from "../img/proyectos/porfolio.png";
 import generadorDeMemes from "../img/proyectos/generadorDeMemes.png";
@@ -23,21 +21,11 @@ const Proyectos = () => {
 				justifyContent: "center",
 			}}
 		>
-			<Typography
-				variant="h3"
-				sx={{
-					mt: 14,
-					display: "flex",
-					justifyContent: "center",
-				}}
-			>
-				PROYECTOS
-			</Typography>
 			<Grid
 				item
 				xs={10}
 				sx={{
-					mt: 4,
+					mt: 6,
 					display: "flex",
 					justifyContent: "center",
 					flexWrap: "wrap",
@@ -45,37 +33,63 @@ const Proyectos = () => {
 					backgroundColor: "#f5f5f5",
 				}}
 			>
-				<TarjetaProyecto
-					titulo="Porfolio"
-					imagen={porfolio}
-					link="https://github.com/SOFIABERNABEICEJAS/Portfolio"
-				/>
-				<TarjetaProyecto
-					titulo="Generador de memes"
-					imagen={generadorDeMemes}
-					link="https://sofiabernabeicejas.github.io/Generador-de-memes/"
-				/>
-				<TarjetaProyecto
-					titulo="Ahorradas"
-					imagen={ahorradas}
-					link="https://sofiabernabeicejas.github.io/AhorrADAs/"
-				/>
-				<TarjetaProyecto
-					titulo="Pokemon"
-					imagen={pokemon}
-					link="https://smeraldaka0s.github.io/Pokemon-TCG-API/"
-				/>
-				<TarjetaProyecto
-					titulo="Rick And Morty"
-					imagen={rickAndMorty}
-					link="https://main--rick-and-morty-react-sass.netlify.app/"
-				/>
+				<Box
+					sx={{
+						display: "flex",
+						justifyContent: "center",
+					}}
+				>
+					<Typography
+						variant="h3"
+						sx={{
+							mt: 8,
+							mb: 8,
+							display: "flex",
+							justifyContent: "center",
+						}}
+					>
+						PROYECTOS
+					</Typography>
+				</Box>
+				<Box
+					sx={{
+						display: "flex",
+						justifyContent: "center",
+						flexWrap: "wrap",
+					}}
+				>
+					<TarjetaProyecto
+						titulo="Porfolio"
+						imagen={porfolio}
+						link="https://github.com/SOFIABERNABEICEJAS/Portfolio"
+					/>
+					<TarjetaProyecto
+						titulo="Generador de memes"
+						imagen={generadorDeMemes}
+						link="https://sofiabernabeicejas.github.io/Generador-de-memes/"
+					/>
+					<TarjetaProyecto
+						titulo="Ahorradas"
+						imagen={ahorradas}
+						link="https://sofiabernabeicejas.github.io/AhorrADAs/"
+					/>
+					<TarjetaProyecto
+						titulo="Pokemon"
+						imagen={pokemon}
+						link="https://smeraldaka0s.github.io/Pokemon-TCG-API/"
+					/>
+					<TarjetaProyecto
+						titulo="Rick And Morty"
+						imagen={rickAndMorty}
+						link="https://main--rick-and-morty-react-sass.netlify.app/"
+					/>
 
-				<TarjetaProyecto
-					titulo="Netflix-SB"
-					imagen={netflixSB}
-					link="https://tpfinalnetflix-sb.netlify.app//"
-				/>
+					<TarjetaProyecto
+						titulo="Netflix-SB"
+						imagen={netflixSB}
+						link="https://tpfinalnetflix-sb.netlify.app//"
+					/>
+				</Box>
 			</Grid>
 		</Grid>
 	);
