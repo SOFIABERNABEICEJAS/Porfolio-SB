@@ -17,6 +17,7 @@ const Contacto = () => {
 			sx={{
 				display: "flex",
 				justifyContent: "center",
+				backgroundColor: "#c2c2c2",
 			}}
 		>
 			<Typography
@@ -43,6 +44,7 @@ const Contacto = () => {
 					justifyContent: "center",
 					flexWrap: "wrap",
 					boxShadow: 2,
+					backgroundColor: "#fafafa",
 				}}
 			>
 				<Grid
