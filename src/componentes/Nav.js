@@ -56,22 +56,22 @@ const Nav = () => {
 						>
 							<MenuItem onClick={handleClose}>
 								<Link href="#sobreMi" underline="none">
-									Sobre mi
+									SOBRE MI
 								</Link>
 							</MenuItem>
 							<MenuItem onClick={handleClose}>
 								<Link href="#proyectos" underline="none">
-									Proyectos
+									PROYECTOS
 								</Link>
 							</MenuItem>
 							<MenuItem onClick={handleClose}>
 								<Link href="#conocimientos" underline="none">
-									Conocimientos
+									CONOCIMIENTOS
 								</Link>
 							</MenuItem>
 							<MenuItem onClick={handleClose}>
 								<Link href="#contacto" underline="none">
-									Contacto
+									CONTACTO
 								</Link>
 							</MenuItem>
 						</Menu>

@@ -50,6 +50,13 @@ const Conocimientos = () => {
 							mb: 8,
 							display: "flex",
 							justifyContent: "center",
+							fontSize: {
+								xl: 55,
+								lg: 50,
+								md: 50,
+								sm: 45,
+								xs: 37,
+							},
 						}}
 					>
 						CONOCIMIENTOS
