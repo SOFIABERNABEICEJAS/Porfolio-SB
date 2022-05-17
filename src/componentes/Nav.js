@@ -6,8 +6,18 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
-
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+import Link from "@mui/material/Link";
 const Nav = () => {
+	const [anchorEl, setAnchorEl] = React.useState(null);
+	const open = Boolean(anchorEl);
+	const handleClick = (event) => {
+		setAnchorEl(event.currentTarget);
+	};
+	const handleClose = () => {
+		setAnchorEl(null);
+	};
 	return (
 		<Stack spacing={2} sx={{ flexGrow: 1 }}>
 			<AppBar
@@ -22,9 +32,49 @@ const Nav = () => {
 							display: { sm: "none", md: "none", lg: "none", xl: "none" },
 						}}
 					>
-						<IconButton edge="start" color="inherit" aria-label="menu">
+						<IconButton
+							id="basic-button"
+							aria-controls={open ? "basic-menu" : undefined}
+							aria-haspopup="true"
+							aria-expanded={open ? "true" : undefined}
+							onClick={handleClick}
+							edge="start"
+							color="inherit"
+							aria-label="menu"
+						>
 							<MenuIcon />
 						</IconButton>
+
+						<Menu
+							id="basic-menu"
+							anchorEl={anchorEl}
+							open={open}
+							onClose={handleClose}
+							MenuListProps={{
+								"aria-labelledby": "basic-button",
+							}}
+						>
+							<MenuItem onClick={handleClose}>
+								<Link href="#sobreMi" underline="none">
+									Sobre mi
+								</Link>
+							</MenuItem>
+							<MenuItem onClick={handleClose}>
+								<Link href="#proyectos" underline="none">
+									Proyectos
+								</Link>
+							</MenuItem>
+							<MenuItem onClick={handleClose}>
+								<Link href="#conocimientos" underline="none">
+									Conocimientos
+								</Link>
+							</MenuItem>
+							<MenuItem onClick={handleClose}>
+								<Link href="#contacto" underline="none">
+									Contacto
+								</Link>
+							</MenuItem>
+						</Menu>
 					</Box>
 
 					<Box
