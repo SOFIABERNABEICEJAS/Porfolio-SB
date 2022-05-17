@@ -3,6 +3,7 @@ import Proyectos from "./componentes/Proyectos";
 import Conocimientos from "./componentes/Conocimientos";
 import Contacto from "./componentes/Contacto";
 import SobreMi from "./componentes/SobreMi";
+import Footer from "./componentes/Footer";
 
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
@@ -22,6 +23,7 @@ const App = () => {
 				<Proyectos />
 				<Conocimientos />
 				<Contacto />
+				<Footer />
 			</div>
 		</ThemeProvider>
 	);
