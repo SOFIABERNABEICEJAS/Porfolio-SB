@@ -7,16 +7,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 
-import { ThemeProvider, createTheme } from "@mui/material/styles";
-
-const darkTheme = createTheme({
-	palette: {
-		mode: "dark",
-		primary: {
-			main: "#1976d2",
-		},
-	},
-});
 const Nav = () => {
 	return (
 		<Stack spacing={2} sx={{ flexGrow: 1 }}>
