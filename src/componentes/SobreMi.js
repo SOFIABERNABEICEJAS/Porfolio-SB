@@ -1,11 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import CardMedia from "@mui/material/CardMedia";
 import sofia from "../img/sobreMi/sofia.png";
-import sofiaa from "../img/sobreMi/sofiaa.png";
-import CardContent from "@mui/material/CardContent";
+import Avatar from "@mui/material/Avatar";
 const SobreMi = () => {
 	return (
 		<Grid
@@ -22,9 +18,9 @@ const SobreMi = () => {
 				xs={10}
 				sx={{
 					pt: 18,
-					pb: 10,
+					pb: 2,
 					display: "flex",
-					alignItems: "center",
+					justifyContent: "center",
 					flexWrap: "wrap",
 					boxShadow: 1,
 					backgroundColor: "#fafafa",
@@ -37,19 +33,17 @@ const SobreMi = () => {
 					lg={4}
 					xl={4}
 					sx={{
-						m: 1,
+						mb: 2,
+						mt: 2,
 						display: "flex",
 						justifyContent: "center",
 					}}
 				>
-					<Card sx={{ width: 300, borderRadius: 900 }}>
-						<CardMedia
-							component="img"
-							height="300"
-							image={sofiaa}
-							alt="imagen personal"
-						/>
-					</Card>
+					<Avatar
+						alt="imagen personal Sofia Bernabei"
+						src={sofia}
+						sx={{ width: 300, height: 300 }}
+					/>
 				</Grid>
 
 				<Grid
@@ -62,6 +56,7 @@ const SobreMi = () => {
 						display: "flex",
 						flexDirection: "column",
 						alignItems: "center",
+						justifyContent: "center",
 						textAlign: "center",
 					}}
 				>
@@ -91,11 +86,11 @@ const SobreMi = () => {
 							alignItems: "center",
 							textAlign: "center",
 							fontSize: {
-								xl: 60,
-								lg: 60,
-								md: 50,
+								xl: 55,
+								lg: 50,
+								md: 45,
 								sm: 35,
-								xs: 30,
+								xs: 35,
 							},
 						}}
 					>
@@ -107,14 +102,16 @@ const SobreMi = () => {
 						sx={{
 							mt: 2,
 							mb: 4,
+							p: 3,
 							textAlign: "center",
 						}}
 					>
-						Trabaje 7 años en un laboratorio privado y hace más de un año conocí
-						este nuevo mundo IT con infinitas oportunidades de aprendizaje y
-						crecimiento. Lo que más me gustó fue darme cuenta que no solo
-						resolves problemas mientras plasmas la creatividad, sino que, no
-						existe un limite de aprendizaje.
+						Les cuento un poco sobre mi: trabaje siete años en un laboratorio
+						privado cumpliendo la función de Técnica en Laboratorio y hace más
+						de un año conocí este nuevo mundo IT con infinitas oportunidades de
+						aprendizaje y crecimiento. Lo que más me emociona es darme cuenta
+						que no solo resolves problemas mientras aplicas la creatividad, sino
+						que, no existe un límite de aprendizaje.
 					</Typography>
 				</Grid>
 			</Grid>
