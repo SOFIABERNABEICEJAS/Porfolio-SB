@@ -14,26 +14,32 @@ const SobreMi = () => {
 			sx={{
 				display: "flex",
 				justifyContent: "center",
+				backgroundColor: "#c2c2c2",
 			}}
 		>
 			<Grid
 				item
+				xs={10}
 				sx={{
-					mt: 18,
-					mb: 10,
+					pt: 18,
+					pb: 10,
 					display: "flex",
-					justifyContent: "center",
+					alignItems: "center",
+					flexWrap: "wrap",
 					boxShadow: 1,
-					display: {
-						xs: "column",
-					},
+					backgroundColor: "#fafafa",
 				}}
 			>
 				<Grid
+					xs={12}
+					sm={12}
+					md={4}
+					lg={4}
+					xl={4}
 					sx={{
-						m: 2,
+						m: 1,
 						display: "flex",
-						flexDirection: "column",
+						justifyContent: "center",
 					}}
 				>
 					<Card sx={{ width: 300, borderRadius: 900 }}>
@@ -47,13 +53,34 @@ const SobreMi = () => {
 				</Grid>
 
 				<Grid
+					xs={12}
+					sm={10}
+					md={7}
+					lg={7}
+					xl={7}
 					sx={{
-						m: 2,
 						display: "flex",
 						flexDirection: "column",
+						alignItems: "center",
+						textAlign: "center",
 					}}
 				>
-					<Typography variant="h1" sx={{ color: "#424242", fontSize: 65 }}>
+					<Typography
+						variant="h1"
+						sx={{
+							color: "#424242",
+							fontSize: 60,
+							mt: 1,
+							mb: 1,
+							fontSize: {
+								xl: 60,
+								lg: 60,
+								md: 60,
+								sm: 35,
+								xs: 30,
+							},
+						}}
+					>
 						Desarrolladora Frontend
 					</Typography>
 					<Typography
@@ -61,7 +88,15 @@ const SobreMi = () => {
 						sx={{
 							m: 1,
 							display: "flex",
-							justifyContent: "center",
+							alignItems: "center",
+							textAlign: "center",
+							fontSize: {
+								xl: 60,
+								lg: 60,
+								md: 50,
+								sm: 35,
+								xs: 30,
+							},
 						}}
 					>
 						Sofia Bernabei
@@ -71,15 +106,15 @@ const SobreMi = () => {
 						color="text.secondary"
 						sx={{
 							mt: 2,
+							mb: 4,
 							textAlign: "center",
 						}}
 					>
-						Les cuento un poco sobre mi, trabaje 7 años en un laboratorio
-						privado y hace más de un año conocí este nuevo mundo IT con
-						infinitas oportunidades de crecimiento y aprendizaje. Lo que más me
-						gustó fue darme cuenta que no solo resolves problemas mientras
-						plasmas la creativid en cada proyecto, sino que, no existe un limite
-						de aprendizaje.
+						Trabaje 7 años en un laboratorio privado y hace más de un año conocí
+						este nuevo mundo IT con infinitas oportunidades de aprendizaje y
+						crecimiento. Lo que más me gustó fue darme cuenta que no solo
+						resolves problemas mientras plasmas la creatividad, sino que, no
+						existe un limite de aprendizaje.
 					</Typography>
 				</Grid>
 			</Grid>

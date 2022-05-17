@@ -19,6 +19,7 @@ const Proyectos = () => {
 			sx={{
 				display: "flex",
 				justifyContent: "center",
+				backgroundColor: "#c2c2c2",
 			}}
 		>
 			<Grid

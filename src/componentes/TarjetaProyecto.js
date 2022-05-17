@@ -15,6 +15,7 @@ const TarjetaProyecto = ({ imagen, titulo, link }) => {
 			sx={{
 				minWidth: 275,
 				m: 4,
+				boxShadow: 1,
 				":hover": {
 					boxShadow: 3,
 				},
