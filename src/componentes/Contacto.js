@@ -25,7 +25,6 @@ const Contacto = () => {
 				gutterBottom
 				sx={{
 					mt: 14,
-
 					display: "flex",
 					justifyContent: "center",
 					color: "#424242",
@@ -37,10 +36,10 @@ const Contacto = () => {
 				item
 				xs={10}
 				sx={{
-					mt: 1,
-					mb: 2,
+					mt: 4,
+					mb: 4,
 					pb: 2,
-					pt: 4,
+					pt: 2,
 					display: "flex",
 					justifyContent: "center",
 					flexWrap: "wrap",
@@ -59,7 +58,6 @@ const Contacto = () => {
 						variant="h6"
 						gutterBottom
 						sx={{
-							mb: 2,
 							display: "flex",
 							justifyContent: "center",
 						}}
@@ -131,8 +129,6 @@ const Contacto = () => {
 				</Grid>
 				<Grid
 					component="form"
-					action="https://formsubmit.co/sofiabernabeicejas@gmail.com"
-					method="POST"
 					xs={12}
 					md={5}
 					lg={5}
@@ -148,7 +144,6 @@ const Contacto = () => {
 					<Typography
 						variant="h6"
 						sx={{
-							mb: 2,
 							display: "flex",
 							justifyContent: "center",
 						}}
@@ -158,7 +153,6 @@ const Contacto = () => {
 					<TextField
 						id="filled-basic"
 						label="Nombre"
-						name="Nombre"
 						variant="filled"
 						sx={{
 							m: 1,
@@ -167,7 +161,6 @@ const Contacto = () => {
 					<TextField
 						id="filled-basic"
 						label="Apellido"
-						name="Apellido"
 						variant="filled"
 						sx={{
 							m: 1,
@@ -176,7 +169,6 @@ const Contacto = () => {
 					<TextField
 						id="filled-basic"
 						label="Email"
-						name="Email"
 						variant="filled"
 						sx={{
 							m: 1,
@@ -185,7 +177,6 @@ const Contacto = () => {
 					<TextField
 						id="filled-multiline-static"
 						label="Mensaje"
-						name="Mensaje"
 						multiline
 						rows={4}
 						defaultValue="Escribe aquí tu mensaje ..."
