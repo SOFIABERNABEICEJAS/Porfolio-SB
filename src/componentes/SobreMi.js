@@ -56,7 +56,6 @@ const SobreMi = () => {
 					lg={7}
 					xl={7}
 					sx={{
-						mr: 2,
 						display: "flex",
 						flexDirection: "column",
 						alignItems: "center",

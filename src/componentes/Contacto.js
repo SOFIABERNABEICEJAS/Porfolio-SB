@@ -36,7 +36,7 @@ const Contacto = () => {
 				item
 				xs={10}
 				sx={{
-					mt: 2,
+					mt: 1,
 					mb: 4,
 					pb: 2,
 					pt: 4,
