@@ -35,9 +35,10 @@ const SobreMi = () => {
 					xl={4}
 					sx={{
 						mb: 2,
-						mt: 2,
+						mt: 1,
 						display: "flex",
 						justifyContent: "center",
+						alignItems: "center",
 					}}
 				>
 					<Avatar
@@ -66,7 +67,6 @@ const SobreMi = () => {
 						variant="h1"
 						sx={{
 							color: "#424242",
-							mt: 1,
 							mb: 1,
 							fontSize: {
 								xl: 60,
