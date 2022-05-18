@@ -43,8 +43,8 @@ const Proyectos = () => {
 					<Typography
 						variant="h3"
 						sx={{
-							mt: 8,
-							mb: 8,
+							mt: 9,
+							mb: 5,
 							display: "flex",
 							justifyContent: "center",
 							color: "#424242",
