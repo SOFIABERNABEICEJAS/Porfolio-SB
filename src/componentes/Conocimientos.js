@@ -1,5 +1,4 @@
 import * as React from "react";
-
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
@@ -13,6 +12,7 @@ import bulma from "../img/conocimientos/bulma.png";
 import git from "../img/conocimientos/git.png";
 import github from "../img/conocimientos/github.png";
 import TarjetaConocimientos from "./TarjetaConocimientos";
+
 const Conocimientos = () => {
 	return (
 		<Grid
