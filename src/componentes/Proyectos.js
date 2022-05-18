@@ -63,7 +63,7 @@ const Proyectos = () => {
 					<TarjetaProyecto
 						titulo="Porfolio"
 						imagen={porfolio}
-						link="https://github.com/SOFIABERNABEICEJAS/Portfolio"
+						link="https://sofiabernabeicejas.github.io/Portfolio/"
 					/>
 					<TarjetaProyecto
 						titulo="Generador de memes"
