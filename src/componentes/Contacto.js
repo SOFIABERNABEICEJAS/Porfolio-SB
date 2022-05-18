@@ -36,10 +36,10 @@ const Contacto = () => {
 				item
 				xs={10}
 				sx={{
-					mt: 4,
+					mt: 2,
 					mb: 4,
 					pb: 2,
-					pt: 2,
+					pt: 4,
 					display: "flex",
 					justifyContent: "center",
 					flexWrap: "wrap",
@@ -58,6 +58,7 @@ const Contacto = () => {
 						variant="h6"
 						gutterBottom
 						sx={{
+							mb: 2,
 							display: "flex",
 							justifyContent: "center",
 						}}
@@ -129,6 +130,8 @@ const Contacto = () => {
 				</Grid>
 				<Grid
 					component="form"
+					action="https://formsubmit.co/sofiabernabeicejas@gmail.com"
+					method="POST"
 					xs={12}
 					md={5}
 					lg={5}
@@ -144,6 +147,7 @@ const Contacto = () => {
 					<Typography
 						variant="h6"
 						sx={{
+							mb: 2,
 							display: "flex",
 							justifyContent: "center",
 						}}
@@ -151,6 +155,7 @@ const Contacto = () => {
 						ESCRIBEME:
 					</Typography>
 					<TextField
+						name="Nombre"
 						id="filled-basic"
 						label="Nombre"
 						variant="filled"
@@ -159,6 +164,7 @@ const Contacto = () => {
 						}}
 					/>
 					<TextField
+						name="Apellido"
 						id="filled-basic"
 						label="Apellido"
 						variant="filled"
@@ -167,6 +173,7 @@ const Contacto = () => {
 						}}
 					/>
 					<TextField
+						name="Email"
 						id="filled-basic"
 						label="Email"
 						variant="filled"
@@ -175,6 +182,7 @@ const Contacto = () => {
 						}}
 					/>
 					<TextField
+						name="Email"
 						id="filled-multiline-static"
 						label="Mensaje"
 						multiline
