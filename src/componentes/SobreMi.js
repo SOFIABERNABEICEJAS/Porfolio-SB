@@ -99,18 +99,16 @@ const SobreMi = () => {
 						color="text.secondary"
 						sx={{
 							m: 2,
+							mb: 2,
 							pb: 3,
 							textAlign: "center",
 						}}
 					>
-						Trabajé siete años en un increible laboratorio clínico, cumpliendo
-						mi función como Técnica en Laboratorioo. Mi inquietud y curiosidad
+						Trabajé siete años en un importante laboratorio clínico, cumpliendo
+						mi función como Técnica en Laboratorio. Mi inquietud y curiosidad
 						por la tecnología hizo que incursionara en el fascinante mundo IT,
 						el cual, me permite explayar mi creatividad y capacidad para
-						resolver desafíos y aprendizajes sin límites de crecimiento. Hoy
-						estoy en busqueda de mi primer trabajo como desarrolladora frontend
-						y busco un lugar que me permita crecer día a día y seguir
-						aprendiendo.
+						resolver desafíos y aprendizajes sin límites de crecimiento.
 					</Typography>
 				</Grid>
 			</Grid>
