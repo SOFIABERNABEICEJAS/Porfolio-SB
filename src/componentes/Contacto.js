@@ -8,6 +8,7 @@ import Chip from "@mui/material/Chip";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import FormControl from "@mui/material/FormControl";
 
 const Contacto = () => {
 	return (
@@ -128,80 +129,79 @@ const Contacto = () => {
 						/>
 					</Link>
 				</Grid>
-				<Grid
-					component="form"
-					action="https://formsubmit.co/sofiabernabeicejas@gmail.com"
-					method="POST"
-					xs={12}
-					md={5}
-					lg={5}
-					xl={5}
-					sx={{
-						display: "flex",
-						flexDirection: "column",
-						m: 2,
-					}}
-					noValidate
-					autoComplete="off"
-				>
-					<Typography
-						variant="h6"
+				<Grid xs={12} md={5} lg={5} xl={5}>
+					<FormControl
+						component="form"
+						action="https://formsubmit.co/sofiabernabeicejas@gmail.com"
+						method="POST"
 						sx={{
-							mb: 2,
 							display: "flex",
-							justifyContent: "center",
+							flexDirection: "column",
+							m: 2,
 						}}
+						noValidate
+						autoComplete="off"
 					>
-						ESCRIBEME:
-					</Typography>
-					<TextField
-						name="Nombre"
-						id="filled-basic"
-						label="Nombre"
-						variant="filled"
-						sx={{
-							m: 1,
-						}}
-					/>
-					<TextField
-						name="Apellido"
-						id="filled-basic"
-						label="Apellido"
-						variant="filled"
-						sx={{
-							m: 1,
-						}}
-					/>
-					<TextField
-						name="Email"
-						id="filled-basic"
-						label="Email"
-						variant="filled"
-						sx={{
-							m: 1,
-						}}
-					/>
-					<TextField
-						name="Mensaje"
-						id="filled-multiline-static"
-						label="Mensaje"
-						multiline
-						rows={4}
-						defaultValue="Escribe aquí tu mensaje ..."
-						variant="filled"
-						sx={{
-							m: 1,
-						}}
-					/>
-					<Button
-						variant="contained"
-						color="primary"
-						sx={{
-							m: 1,
-						}}
-					>
-						Enviar
-					</Button>
+						<Typography
+							variant="h6"
+							sx={{
+								mb: 2,
+								display: "flex",
+								justifyContent: "center",
+							}}
+						>
+							ESCRIBEME:
+						</Typography>
+
+						<TextField
+							name="Nombre"
+							id="filled-basic"
+							label="Nombre"
+							variant="filled"
+							sx={{
+								m: 1,
+							}}
+						/>
+						<TextField
+							name="Apellido"
+							id="filled-basic"
+							label="Apellido"
+							variant="filled"
+							sx={{
+								m: 1,
+							}}
+						/>
+						<TextField
+							name="Email"
+							id="filled-basic"
+							label="Email"
+							variant="filled"
+							sx={{
+								m: 1,
+							}}
+						/>
+						<TextField
+							name="Mensaje"
+							id="filled-multiline-static"
+							label="Mensaje"
+							multiline
+							rows={4}
+							defaultValue="Escribe aquí tu mensaje ..."
+							variant="filled"
+							sx={{
+								m: 1,
+							}}
+						/>
+						<Button
+							variant="contained"
+							color="primary"
+							sx={{
+								m: 1,
+							}}
+						>
+							Enviar
+						</Button>
+					</FormControl>
 				</Grid>
 			</Grid>
 		</Grid>
