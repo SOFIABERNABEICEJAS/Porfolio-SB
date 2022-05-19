@@ -100,18 +100,18 @@ const SobreMi = () => {
 						variant="body1"
 						color="text.secondary"
 						sx={{
-							mt: 2,
-							mb: 4,
-							p: 3,
+							m: 2,
+							mb: 2,
+							pb: 3,
 							textAlign: "center",
 						}}
 					>
-						Les cuento un poco sobre mi, comencé estudiando Técnica en
-						Laboratorio y trabaje en un importante laboratorio por 7 años. Mi
-						inquietud y curiosidad por la tecnología hizo que incursionara en el
-						fascinante mundo IT, el cual me permite explayar mi creatividad y mi
-						capacidad para resolver desafíos y aprendizajes sin límites de
-						crecimiento.
+						Trabajé siete años en un importante laboratorio clínico, cumpliendo
+						mi función como Técnica en Laboratorio. Mi inquietud y curiosidad
+						por la tecnología hizo que incursionara en el fascinante mundo IT,
+						el cual, me permite explayar mi creatividad y capacidad para
+						resolver desafíos y aprendizajes sin límites de crecimiento.
+
 					</Typography>
 				</Grid>
 			</Grid>
