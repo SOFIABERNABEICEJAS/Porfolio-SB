@@ -23,16 +23,16 @@ const SobreMi = () => {
 					justifyContent: "center",
 					flexWrap: "wrap",
 					boxShadow: 1,
-					backgroundColor: "#fafafa",
+					backgroundColor: "#ffffff",
 				}}
 			>
 				<Grid
 					item
 					xs={12}
 					sm={12}
-					md={4}
-					lg={4}
-					xl={4}
+					md={3}
+					lg={3}
+					xl={3}
 					sx={{
 						mb: 2,
 						mt: 1,
@@ -44,7 +44,7 @@ const SobreMi = () => {
 					<Avatar
 						alt="imagen personal Sofia Bernabei"
 						src={sofia}
-						sx={{ width: 300, height: 300 }}
+						sx={{ width: 280, height: 280 }}
 					/>
 				</Grid>
 
@@ -66,13 +66,11 @@ const SobreMi = () => {
 						variant="h1"
 						sx={{
 							color: "#424242",
-							mb: 1,
+							pb: 1,
 							fontSize: {
-								xl: 60,
-								lg: 60,
 								md: 50,
 								sm: 35,
-								xs: 30,
+								xs: 35,
 							},
 						}}
 					>
@@ -86,8 +84,8 @@ const SobreMi = () => {
 							alignItems: "center",
 							textAlign: "center",
 							fontSize: {
-								xl: 55,
-								lg: 50,
+								xl: 50,
+								lg: 45,
 								md: 45,
 								sm: 35,
 								xs: 35,
@@ -100,18 +98,19 @@ const SobreMi = () => {
 						variant="body1"
 						color="text.secondary"
 						sx={{
-							mt: 2,
-							mb: 4,
-							p: 3,
+							m: 2,
+							pb: 3,
 							textAlign: "center",
 						}}
 					>
-						Les cuento un poco sobre mi, comencé estudiando Técnica en
-						Laboratorio y trabaje en un importante laboratorio por 7 años. Mi
-						inquietud y curiosidad por la tecnología hizo que incursionara en el
-						fascinante mundo IT, el cual me permite explayar mi creatividad y mi
-						capacidad para resolver desafíos y aprendizajes sin límites de
-						crecimiento.
+						Trabajé siete años en un increible laboratorio clínico, cumpliendo
+						mi función como Técnica en Laboratorioo. Mi inquietud y curiosidad
+						por la tecnología hizo que incursionara en el fascinante mundo IT,
+						el cual, me permite explayar mi creatividad y capacidad para
+						resolver desafíos y aprendizajes sin límites de crecimiento. Hoy
+						estoy en busqueda de mi primer trabajo como desarrolladora frontend
+						y busco un lugar que me permita crecer día a día y seguir
+						aprendiendo.
 					</Typography>
 				</Grid>
 			</Grid>

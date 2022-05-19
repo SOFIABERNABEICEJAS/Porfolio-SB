@@ -45,7 +45,7 @@ const Contacto = () => {
 					justifyContent: "center",
 					flexWrap: "wrap",
 					boxShadow: 2,
-					backgroundColor: "#fafafa",
+					backgroundColor: "#ffffff",
 				}}
 			>
 				<Grid
