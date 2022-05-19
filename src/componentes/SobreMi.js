@@ -23,16 +23,16 @@ const SobreMi = () => {
 					justifyContent: "center",
 					flexWrap: "wrap",
 					boxShadow: 1,
-					backgroundColor: "#ffffff",
+					backgroundColor: "#fafafa",
 				}}
 			>
 				<Grid
 					item
 					xs={12}
 					sm={12}
-					md={3}
-					lg={3}
-					xl={3}
+					md={4}
+					lg={4}
+					xl={4}
 					sx={{
 						mb: 2,
 						mt: 1,
@@ -44,7 +44,7 @@ const SobreMi = () => {
 					<Avatar
 						alt="imagen personal Sofia Bernabei"
 						src={sofia}
-						sx={{ width: 280, height: 280 }}
+						sx={{ width: 300, height: 300 }}
 					/>
 				</Grid>
 
@@ -66,11 +66,13 @@ const SobreMi = () => {
 						variant="h1"
 						sx={{
 							color: "#424242",
-							pb: 1,
+							mb: 1,
 							fontSize: {
+								xl: 60,
+								lg: 60,
 								md: 50,
 								sm: 35,
-								xs: 35,
+								xs: 30,
 							},
 						}}
 					>
@@ -84,8 +86,8 @@ const SobreMi = () => {
 							alignItems: "center",
 							textAlign: "center",
 							fontSize: {
-								xl: 50,
-								lg: 45,
+								xl: 55,
+								lg: 50,
 								md: 45,
 								sm: 35,
 								xs: 35,
@@ -109,6 +111,7 @@ const SobreMi = () => {
 						por la tecnología hizo que incursionara en el fascinante mundo IT,
 						el cual, me permite explayar mi creatividad y capacidad para
 						resolver desafíos y aprendizajes sin límites de crecimiento.
+
 					</Typography>
 				</Grid>
 			</Grid>
