@@ -110,7 +110,7 @@ const SobreMi = () => {
 						el cual, me permite explayar mi creatividad y capacidad para
 						resolver desafíos y aprendizajes sin límites de crecimiento. Hoy
 						estoy en búsqueda de mi primer trabajo y me encantaría encontrar un
-						lugar que me permida crecer día a día y seguir aprendiendo.
+						lugar que me permita crecer día a día y seguir aprendiendo.
 					</Typography>
 				</Grid>
 			</Grid>
