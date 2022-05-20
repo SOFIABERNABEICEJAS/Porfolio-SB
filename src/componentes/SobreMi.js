@@ -108,7 +108,9 @@ const SobreMi = () => {
 						mi función como Técnica en Laboratorio. Mi inquietud y curiosidad
 						por la tecnología hizo que incursionara en el fascinante mundo IT,
 						el cual, me permite explayar mi creatividad y capacidad para
-						resolver desafíos y aprendizajes sin límites de crecimiento.
+						resolver desafíos y aprendizajes sin límites de crecimiento. Hoy
+						estoy en búsqueda de mi primer trabajo y me encantaría encontrar un
+						lugar que me permida crecer día a día y seguir aprendiendo.
 					</Typography>
 				</Grid>
 			</Grid>
