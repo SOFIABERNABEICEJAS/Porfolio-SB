@@ -18,24 +18,34 @@ const Contacto = () => {
 			sx={{
 				display: "flex",
 				justifyContent: "center",
+
 				backgroundColor: "#c2c2c2",
 			}}
 		>
-			<Typography
-				variant="h3"
-				gutterBottom
-				sx={{
-					mt: 14,
-					display: "flex",
-					justifyContent: "center",
-					color: "#424242",
-				}}
+			<div
+				data-aos="flip-left"
+				data-aos-easing="ease-out-cubic"
+				data-aos-duration="2000"
 			>
-				CONTACTO
-			</Typography>
+				<Typography
+					variant="h3"
+					gutterBottom
+					sx={{
+						mt: 14,
+						display: "flex",
+						justifyContent: "center",
+						color: "#424242",
+					}}
+				>
+					CONTACTO
+				</Typography>
+			</div>
 			<Grid
 				item
 				xs={10}
+				sm={10}
+				md={10}
+				lg={10}
 				sx={{
 					mt: 1,
 					mb: 4,
@@ -44,7 +54,7 @@ const Contacto = () => {
 					display: "flex",
 					justifyContent: "center",
 					flexWrap: "wrap",
-					boxShadow: 2,
+					boxShadow: 4,
 					backgroundColor: "#fafafa",
 				}}
 			>
@@ -66,70 +76,75 @@ const Contacto = () => {
 					>
 						CONTACTAME:
 					</Typography>
-
-					<Link
-						href="https://www.linkedin.com/in/sofia-bernabei/"
-						underline="none"
-						sx={{
-							display: "flex",
-							justifyContent: "center",
-							m: 3,
-						}}
-					>
-						<Chip
+					<div data-aos="zoom-in">
+						<Link
+							href="https://www.linkedin.com/in/sofia-bernabei/"
+							underline="none"
 							sx={{
-								p: 2,
-								":hover": {
-									boxShadow: 1,
-								},
+								display: "flex",
+								justifyContent: "center",
+								m: 3,
 							}}
-							icon={<LinkedInIcon fontSize="large" />}
-							label="LinkeIn: in/sofia-bernabei"
-						/>
-					</Link>
-					<Link
-						href="https://github.com/SOFIABERNABEICEJAS"
-						target="_blank"
-						underline="none"
-						sx={{
-							display: "flex",
-							justifyContent: "center",
-							m: 3,
-						}}
-					>
-						<Chip
+						>
+							<Chip
+								sx={{
+									p: 2,
+									":hover": {
+										boxShadow: 1,
+									},
+								}}
+								icon={<LinkedInIcon fontSize="large" />}
+								label="LinkeIn: in/sofia-bernabei"
+							/>
+						</Link>
+					</div>
+					<div data-aos="zoom-in">
+						<Link
+							href="https://github.com/SOFIABERNABEICEJAS"
+							target="_blank"
+							underline="none"
 							sx={{
-								p: 2,
-								":hover": {
-									boxShadow: 1,
-								},
+								display: "flex",
+								justifyContent: "center",
+								m: 3,
 							}}
-							icon={<GitHubIcon fontSize="large" />}
-							label="GitHub: /SOFIABERNABEI"
-						/>
-					</Link>
-					<Link
-						href="https://www.instagram.com/sofibernabei/"
-						underline="none"
-						sx={{
-							display: "flex",
-							justifyContent: "center",
-							m: 3,
-						}}
-					>
-						<Chip
+						>
+							<Chip
+								sx={{
+									p: 2,
+									":hover": {
+										boxShadow: 1,
+									},
+								}}
+								icon={<GitHubIcon fontSize="large" />}
+								label="GitHub: /SOFIABERNABEI"
+							/>
+						</Link>
+					</div>
+					<div data-aos="zoom-in">
+						<Link
+							href="https://www.instagram.com/sofibernabei/"
+							underline="none"
 							sx={{
-								p: 2,
-								":hover": {
-									boxShadow: 1,
-								},
+								display: "flex",
+								justifyContent: "center",
+								m: 3,
 							}}
-							icon={<InstagramIcon fontSize="large" />}
-							label="Instagram: /sofibernabei"
-						/>
-					</Link>
+						>
+							<Chip
+								sx={{
+									p: 2,
+									":hover": {
+										boxShadow: 1,
+									},
+								}}
+								icon={<InstagramIcon fontSize="large" />}
+								label="Instagram: /sofibernabei"
+							/>
+						</Link>
+					</div>
 				</Grid>
-				<Grid xs={12} md={5} lg={5} xl={5}>
+				<Grid xs={12} md={6} lg={6} xl={5}>
 					<FormControl
 						component="form"
 						action="https://formsubmit.co/sofiabernabeicejas@gmail.com"
@@ -150,7 +165,7 @@ const Contacto = () => {
 								justifyContent: "center",
 							}}
 						>
-							ESCRIBEME:
+							ESCRIBIME:
 						</Typography>
 
 						<TextField

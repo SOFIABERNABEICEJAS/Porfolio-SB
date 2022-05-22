@@ -37,7 +37,10 @@ const Conocimientos = () => {
 					color: "#424242",
 				}}
 			>
-				<Box
+				<div
+					data-aos="flip-left"
+					data-aos-easing="ease-out-cubic"
+					data-aos-duration="2000"
 					sx={{
 						display: "flex",
 						justifyContent: "center",
@@ -55,13 +58,13 @@ const Conocimientos = () => {
 								lg: 50,
 								md: 50,
 								sm: 45,
-								xs: 37,
+								xs: 35,
 							},
 						}}
 					>
 						CONOCIMIENTOS
 					</Typography>
-				</Box>
+				</div>
 				<Box
 					sx={{
 						display: "flex",

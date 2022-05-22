@@ -21,20 +21,22 @@ const TarjetaProyecto = ({ imagen, titulo, link }) => {
 				},
 			}}
 		>
-			<Card>
-				<CardMedia component="img" height="140" src={imagen} alt={titulo} />
-				<CardContent>
-					<Typography
-						variant="h6"
-						sx={{
-							display: "flex",
-							justifyContent: "center",
-						}}
-					>
-						{titulo}
-					</Typography>
-				</CardContent>
-			</Card>
+			<div data-aos="zoom-in">
+				<Card>
+					<CardMedia component="img" height="140" src={imagen} alt={titulo} />
+					<CardContent>
+						<Typography
+							variant="h6"
+							sx={{
+								display: "flex",
+								justifyContent: "center",
+							}}
+						>
+							{titulo}
+						</Typography>
+					</CardContent>
+				</Card>
+			</div>
 		</Link>
 	);
 };
