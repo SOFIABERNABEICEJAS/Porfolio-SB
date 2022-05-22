@@ -18,6 +18,7 @@ const Footer = () => {
 				sx={{
 					ml: 2,
 					mr: 2,
+					color: "#c2c2c2",
 				}}
 				aria-label="ir a linkedin"
 				size="large"
@@ -29,6 +30,7 @@ const Footer = () => {
 				sx={{
 					ml: 2,
 					mr: 2,
+					color: "#c2c2c2",
 				}}
 				aria-label="ir a github"
 				size="large"
@@ -40,6 +42,7 @@ const Footer = () => {
 				sx={{
 					ml: 2,
 					mr: 2,
+					color: "#c2c2c2",
 				}}
 				aria-label="ir a instagram"
 				size="large"

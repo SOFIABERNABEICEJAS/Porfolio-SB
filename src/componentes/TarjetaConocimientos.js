@@ -6,7 +6,7 @@ import CardMedia from "@mui/material/CardMedia";
 
 const TarjetaConocimientos = ({ imagen, titulo }) => {
 	return (
-		<Card sx={{ m: 4, pt: 2, width: 120, height: 120, borderRadius: 500 }}>
+		<Card sx={{ m: 4, pt: 2, width: 120, height: 120 }}>
 			<CardMedia component="img" height="60" src={imagen} alt={titulo} />
 			<CardContent>
 				<Typography

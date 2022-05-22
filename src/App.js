@@ -4,7 +4,7 @@ import Conocimientos from "./componentes/Conocimientos";
 import Contacto from "./componentes/Contacto";
 import SobreMi from "./componentes/SobreMi";
 import Footer from "./componentes/Footer";
-
+import Bienvenidos from "./componentes/Bienvenidos";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 const darkTheme = createTheme({
@@ -12,6 +12,7 @@ const darkTheme = createTheme({
 		primary: {
 			main: "#424242",
 		},
+		secundary: "#c2c2c2",
 	},
 });
 const App = () => {
@@ -19,8 +20,9 @@ const App = () => {
 		<ThemeProvider theme={darkTheme}>
 			<div>
 				<Nav />
-				<SobreMi />
+				<Bienvenidos />
 				<Proyectos />
+				<SobreMi />
 				<Conocimientos />
 				<Contacto />
 				<Footer />

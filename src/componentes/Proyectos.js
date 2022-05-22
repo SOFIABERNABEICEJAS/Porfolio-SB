@@ -8,9 +8,11 @@ import ahorradas from "../img/proyectos/ahorradas.png";
 import pokemon from "../img/proyectos/pokemon.png";
 import rickAndMorty from "../img/proyectos/rickAndMorty.png";
 import netflixSB from "../img/proyectos/netflixSB.png";
-
 import TarjetaProyecto from "./TarjetaProyecto";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+AOS.init();
 const Proyectos = () => {
 	return (
 		<Grid
@@ -34,7 +36,10 @@ const Proyectos = () => {
 					backgroundColor: "#f5f5f5",
 				}}
 			>
-				<Box
+				<div
+					data-aos="flip-left"
+					data-aos-easing="ease-out-cubic"
+					data-aos-duration="2000"
 					sx={{
 						display: "flex",
 						justifyContent: "center",
@@ -52,7 +57,7 @@ const Proyectos = () => {
 					>
 						PROYECTOS
 					</Typography>
-				</Box>
+				</div>
 				<Box
 					sx={{
 						display: "flex",
@@ -61,16 +66,18 @@ const Proyectos = () => {
 					}}
 				>
 					<TarjetaProyecto
-						titulo="Porfolio"
+						titulo="Primer porfolio"
 						imagen={porfolio}
 						link="https://sofiabernabeicejas.github.io/Portfolio/"
 					/>
+
 					<TarjetaProyecto
 						titulo="Generador de memes"
 						imagen={generadorDeMemes}
 						link="https://sofiabernabeicejas.github.io/Generador-de-memes/"
 					/>
 					<TarjetaProyecto
+						data-aos="fade-down-left"
 						titulo="Ahorradas"
 						imagen={ahorradas}
 						link="https://sofiabernabeicejas.github.io/AhorrADAs/"

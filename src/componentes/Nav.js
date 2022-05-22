@@ -9,7 +9,7 @@ import Box from "@mui/material/Box";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Link from "@mui/material/Link";
-
+import Typography from "@mui/material/Typography";
 const Nav = () => {
 	const [anchorEl, setAnchorEl] = React.useState(null);
 	const open = Boolean(anchorEl);
@@ -21,15 +21,23 @@ const Nav = () => {
 	};
 	return (
 		<Stack spacing={2} sx={{ flexGrow: 1 }}>
-			<AppBar
-				position="fixed"
-				color="primary"
-				sx={{ alignItems: "flex-end", p: 1 }}
-			>
+			<AppBar position="fixed" color="primary" sx={{ p: 1 }}>
 				<Toolbar>
+					<Typography
+						variant="h3"
+						component="div"
+						sx={{
+							flexGrow: 1,
+							fontFamily: "Helvetica Neue",
+							color: "#c2c2c2",
+						}}
+					>
+						SB
+					</Typography>
 					<Box
 						sx={{
 							m: 2,
+
 							display: { sm: "none", md: "none", lg: "none", xl: "none" },
 						}}
 					>
@@ -39,7 +47,7 @@ const Nav = () => {
 							aria-haspopup="true"
 							aria-expanded={open ? "true" : undefined}
 							onClick={handleClick}
-							edge="start"
+							edge="end"
 							color="inherit"
 							aria-label="menu"
 						>
@@ -56,13 +64,13 @@ const Nav = () => {
 							}}
 						>
 							<MenuItem onClick={handleClose}>
-								<Link href="#sobreMi" underline="none">
-									SOBRE MI
+								<Link href="#proyectos" underline="none">
+									PROYECTOS
 								</Link>
 							</MenuItem>
 							<MenuItem onClick={handleClose}>
-								<Link href="#proyectos" underline="none">
-									PROYECTOS
+								<Link href="#sobreMi" underline="none">
+									SOBRE MI
 								</Link>
 							</MenuItem>
 							<MenuItem onClick={handleClose}>
@@ -89,16 +97,32 @@ const Nav = () => {
 							},
 						}}
 					>
-						<Button href="#sobreMi" color="inherit">
-							Sobre mi
-						</Button>
-						<Button href="#proyectos" color="inherit" sx={{ m: 1 }}>
+						<Button
+							href="#proyectos"
+							size="large"
+							sx={{ m: 1, color: "#c2c2c2" }}
+						>
 							Proyectos
 						</Button>
-						<Button href="#conocimientos" color="inherit" sx={{ m: 1 }}>
+						<Button
+							href="#sobreMi"
+							size="large"
+							sx={{ m: 1, color: "#c2c2c2" }}
+						>
+							Sobre mi
+						</Button>
+						<Button
+							href="#conocimientos"
+							size="large"
+							sx={{ m: 1, color: "#c2c2c2" }}
+						>
 							Conocimientos
 						</Button>
-						<Button href="#contacto" color="inherit" sx={{ m: 1 }}>
+						<Button
+							href="#contacto"
+							size="large"
+							sx={{ m: 1, color: "#c2c2c2" }}
+						>
 							Contacto
 						</Button>
 					</Box>
