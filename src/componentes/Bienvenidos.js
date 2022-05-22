@@ -6,8 +6,20 @@ const Bienvenidos = () => {
 			container
 			id="Bienvenidos"
 			sx={{
-				pt: 25,
-				pb: 15,
+				pt: {
+					xl: 30,
+					lg: 30,
+					md: 25,
+					sm: 25,
+					xs: 30,
+				},
+				pb: {
+					xl: 20,
+					lg: 18,
+					md: 15,
+					sm: 15,
+					xs: 20,
+				},
 				pl: {
 					xl: 20,
 					lg: 15,

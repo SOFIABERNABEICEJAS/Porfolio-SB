@@ -67,6 +67,7 @@ const SobreMi = () => {
 						lg={3}
 						xl={3}
 						sx={{
+							m: 2,
 							display: "flex",
 							justifyContent: "center",
 							alignItems: "center",
@@ -97,9 +98,16 @@ const SobreMi = () => {
 							variant="body1"
 							color="text.secondary"
 							sx={{
-								textAlign: "start",
+								m: 2,
 								fontSize: 19,
 								p: 1,
+								textAlign: {
+									xl: "start",
+									lg: "start",
+									md: "start",
+									sm: "start",
+									xs: "center",
+								},
 							}}
 						>
 							Trabajé siete años en un importante laboratorio clínico,
