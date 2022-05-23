@@ -49,6 +49,8 @@ const Contacto = () => {
 					pb: 2,
 					pt: 4,
 					display: "flex",
+					justifyContent: "center",
+
 					flexWrap: "wrap",
 					boxShadow: 4,
 					backgroundColor: "#fff",
@@ -91,7 +93,6 @@ const Contacto = () => {
 								sx={{
 									p: 2,
 									m: 2,
-
 									fontSize: 16,
 									":hover": {
 										boxShadow: 2,
