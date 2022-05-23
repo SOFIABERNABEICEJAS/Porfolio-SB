@@ -2,6 +2,7 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import sofia from "../img/sobreMi/sofia.png";
 import Avatar from "@mui/material/Avatar";
+
 const SobreMi = () => {
 	return (
 		<Grid
@@ -18,13 +19,22 @@ const SobreMi = () => {
 				xs={10}
 				sx={{
 					mt: 6,
-					pb: 4,
 					display: "flex",
 					justifyContent: "center",
 					flexWrap: "wrap",
 					boxShadow: 1,
 					backgroundColor: "#fafafa",
 					color: "#424242",
+					p: {
+						xl: 4,
+						lg: 4,
+						md: 4,
+						sm: 4,
+						xs: 1,
+					},
+					pb: {
+						xs: 4,
+					},
 				}}
 			>
 				<div
@@ -33,20 +43,12 @@ const SobreMi = () => {
 					data-aos-duration="2000"
 				>
 					<Typography
-						component="div"
 						variant="h3"
 						sx={{
-							mt: 9,
+							mt: 4,
 							mb: 5,
 							display: "flex",
 							justifyContent: "center",
-							fontSize: {
-								xl: 55,
-								lg: 50,
-								md: 50,
-								sm: 45,
-								xs: 35,
-							},
 						}}
 					>
 						SOBRE MI
@@ -57,13 +59,14 @@ const SobreMi = () => {
 						display: "flex",
 						justifyContent: "center",
 						flexWrap: "wrap",
+						backgroundColor: "#f5f5f5",
 					}}
 				>
 					<Grid
 						item
 						xs={12}
 						sm={12}
-						md={3}
+						md={4}
 						lg={3}
 						xl={3}
 						sx={{
@@ -76,7 +79,22 @@ const SobreMi = () => {
 						<Avatar
 							alt="imagen personal Sofia Bernabei"
 							src={sofia}
-							sx={{ width: 260, height: 260 }}
+							sx={{
+								width: {
+									xl: 300,
+									lg: 280,
+									md: 280,
+									sm: 280,
+									xs: 250,
+								},
+								height: {
+									xl: 300,
+									lg: 280,
+									md: 280,
+									sm: 280,
+									xs: 250,
+								},
+							}}
 						/>
 					</Grid>
 
@@ -90,16 +108,19 @@ const SobreMi = () => {
 						sx={{
 							p: 1,
 							display: "flex",
-							alignItems: "center",
+							flexDirection: "column",
 							textAlign: "center",
+							justifyContent: "center",
 						}}
 					>
 						<Typography
-							variant="body1"
-							color="text.secondary"
+							variant="h6"
+							xs={12}
+							sm={10}
+							md={6}
+							lg={6}
+							xl={6}
 							sx={{
-								m: 2,
-								fontSize: 19,
 								p: 1,
 								textAlign: {
 									xl: "start",
@@ -110,14 +131,32 @@ const SobreMi = () => {
 								},
 							}}
 						>
-							Trabajé siete años en un importante laboratorio clínico,
-							cumpliendo la función de Técnica en Laboratorio. Mi inquietud y
-							curiosidad por la tecnología hizo que incursionara en el
-							fascinante mundo IT, el cual, me permite explayar mi creatividad y
-							capacidad para resolver desafíos y aprendizajes sin límites de
-							crecimiento. Hoy estoy en búsqueda de mi primer trabajo y me
-							encantaría encontrar un lugar que me permita crecer día a día y
-							seguir aprendiendo.
+							Sofia Bernabei:
+						</Typography>
+						<Typography
+							variant="body1"
+							color="text.secondary"
+							sx={{
+								p: 1,
+
+								textAlign: {
+									xl: "start",
+									lg: "start",
+									md: "start",
+									sm: "start",
+									xs: "center",
+								},
+							}}
+						>
+							Me recibí de Técnica en Laboratorio y trabajé siete años en un
+							importante laboratorio clínico en Córdoba. Mi inquietud y
+							curiosidad por la tecnología hizo que incursionara en el mundo IT.
+							Realicé la carrera de desarrolladora Frontend de un año de
+							duración en el bootcamp en ADA ITW. Quedé fascinada, no solo
+							porque te permite expandir la creatividad y aprender a resolver
+							desafíos, sino porque no existe un límite de aprendaje. Hoy estoy
+							en búsqueda de mi primer trabajo y me encantaría encontrar un
+							lugar que me permita crecer día a día y seguir aprendiendo.
 						</Typography>
 					</Grid>
 				</Grid>

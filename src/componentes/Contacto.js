@@ -17,8 +17,8 @@ const Contacto = () => {
 			id="contacto"
 			sx={{
 				display: "flex",
-				justifyContent: "center",
-
+				flexDirection: "column",
+				alignItems: "center",
 				backgroundColor: "#c2c2c2",
 			}}
 		>
@@ -32,41 +32,39 @@ const Contacto = () => {
 					gutterBottom
 					sx={{
 						mt: 14,
-						display: "flex",
-						justifyContent: "center",
 						color: "#424242",
+						backgroundColor: "#c2c2c2",
 					}}
 				>
 					CONTACTO
 				</Typography>
 			</div>
 			<Grid
+				style={{ width: "100%" }}
 				item
 				xs={10}
-				sm={10}
-				md={10}
-				lg={10}
 				sx={{
 					mt: 1,
 					mb: 4,
 					pb: 2,
 					pt: 4,
 					display: "flex",
-					justifyContent: "center",
 					flexWrap: "wrap",
 					boxShadow: 4,
-					backgroundColor: "#fafafa",
+					backgroundColor: "#fff",
 				}}
 			>
 				<Grid
+					xs={12}
+					md={5}
+					lg={5}
+					xl={5}
 					sx={{
 						m: 2,
-						display: "flex",
-						flexDirection: "column",
 					}}
 				>
 					<Typography
-						variant="h6"
+						variant="h5"
 						gutterBottom
 						sx={{
 							mb: 2,
@@ -89,8 +87,10 @@ const Contacto = () => {
 							<Chip
 								sx={{
 									p: 2,
+									m: 2,
+									fontSize: 16,
 									":hover": {
-										boxShadow: 1,
+										boxShadow: 2,
 									},
 								}}
 								icon={<LinkedInIcon fontSize="large" />}
@@ -112,8 +112,10 @@ const Contacto = () => {
 							<Chip
 								sx={{
 									p: 2,
+									m: 2,
+									fontSize: 16,
 									":hover": {
-										boxShadow: 1,
+										boxShadow: 2,
 									},
 								}}
 								icon={<GitHubIcon fontSize="large" />}
@@ -134,8 +136,10 @@ const Contacto = () => {
 							<Chip
 								sx={{
 									p: 2,
+									m: 2,
+									fontSize: 16,
 									":hover": {
-										boxShadow: 1,
+										boxShadow: 2,
 									},
 								}}
 								icon={<InstagramIcon fontSize="large" />}
@@ -144,21 +148,26 @@ const Contacto = () => {
 						</Link>
 					</div>
 				</Grid>
-				<Grid xs={12} md={6} lg={6} xl={5}>
+				<Grid
+					xs={12}
+					md={6}
+					lg={6}
+					xl={6}
+					sx={{
+						display: "flex",
+						flexDirection: "column",
+						m: 2,
+					}}
+				>
 					<FormControl
 						component="form"
 						action="https://formsubmit.co/sofiabernabeicejas@gmail.com"
 						method="POST"
-						sx={{
-							display: "flex",
-							flexDirection: "column",
-							m: 2,
-						}}
 						noValidate
 						autoComplete="off"
 					>
 						<Typography
-							variant="h6"
+							variant="h5"
 							sx={{
 								mb: 2,
 								display: "flex",
