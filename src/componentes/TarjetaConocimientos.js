@@ -6,8 +6,16 @@ import CardMedia from "@mui/material/CardMedia";
 
 const TarjetaConocimientos = ({ imagen, titulo }) => {
 	return (
-		<Card sx={{ m: 4, pt: 2, width: 120, height: 120 }}>
-			<CardMedia component="img" height="60" src={imagen} alt={titulo} />
+		<Card sx={{ m: 4, pt: 2, width: 120, height: 120, objectFit: "contain" }}>
+			<CardMedia
+				component="img"
+				height="70"
+				objectFit="contain"
+				src={imagen}
+				alt={titulo}
+				sx={{ objectFit: "contain" }}
+			/>
+
 			<CardContent>
 				<Typography
 					variant="h6"
