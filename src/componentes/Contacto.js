@@ -61,7 +61,9 @@ const Contacto = () => {
 					xl={5}
 					sx={{
 						m: 2,
-						justifyContent: "center",
+						display: "flex",
+						flexDirection: "column",
+						alignItems: "center",
 					}}
 				>
 					<Typography
@@ -80,15 +82,16 @@ const Contacto = () => {
 							href="https://www.linkedin.com/in/sofia-bernabei/"
 							underline="none"
 							sx={{
+								mb: 2,
 								display: "flex",
 								justifyContent: "center",
-								m: 3,
 							}}
 						>
 							<Chip
 								sx={{
 									p: 2,
 									m: 2,
+
 									fontSize: 16,
 									":hover": {
 										boxShadow: 2,
@@ -105,9 +108,9 @@ const Contacto = () => {
 							target="_blank"
 							underline="none"
 							sx={{
+								mb: 2,
 								display: "flex",
 								justifyContent: "center",
-								m: 3,
 							}}
 						>
 							<Chip
@@ -129,9 +132,9 @@ const Contacto = () => {
 							href="https://www.instagram.com/sofibernabei/"
 							underline="none"
 							sx={{
+								mb: 2,
 								display: "flex",
 								justifyContent: "center",
-								m: 3,
 							}}
 						>
 							<Chip
