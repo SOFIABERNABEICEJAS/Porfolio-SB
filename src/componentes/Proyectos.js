@@ -1,5 +1,4 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import porfolio from "../img/proyectos/porfolio.png";
@@ -29,9 +28,8 @@ const Proyectos = () => {
 				xs={10}
 				sx={{
 					mt: 6,
-					display: "flex",
-					justifyContent: "center",
-					flexWrap: "wrap",
+					flexDirection: "column",
+					alignItems: "center",
 					boxShadow: 1,
 					backgroundColor: "#f5f5f5",
 				}}
@@ -40,10 +38,6 @@ const Proyectos = () => {
 					data-aos="flip-left"
 					data-aos-easing="ease-out-cubic"
 					data-aos-duration="2000"
-					sx={{
-						display: "flex",
-						justifyContent: "center",
-					}}
 				>
 					<Typography
 						variant="h3"
@@ -58,7 +52,7 @@ const Proyectos = () => {
 						PROYECTOS
 					</Typography>
 				</div>
-				<Box
+				<Grid
 					sx={{
 						display: "flex",
 						justifyContent: "center",
@@ -98,7 +92,7 @@ const Proyectos = () => {
 						imagen={netflixSB}
 						link="https://tpfinalnetflix-sb.netlify.app//"
 					/>
-				</Box>
+				</Grid>
 			</Grid>
 		</Grid>
 	);

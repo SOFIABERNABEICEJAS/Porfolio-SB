@@ -10,6 +10,7 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
+
 const Nav = () => {
 	const [anchorEl, setAnchorEl] = React.useState(null);
 	const open = Boolean(anchorEl);
@@ -24,7 +25,7 @@ const Nav = () => {
 			<AppBar position="fixed" color="primary" sx={{ p: 1 }}>
 				<Toolbar>
 					<Typography
-						variant="h3"
+						variant="h4"
 						component="div"
 						sx={{
 							flexGrow: 1,

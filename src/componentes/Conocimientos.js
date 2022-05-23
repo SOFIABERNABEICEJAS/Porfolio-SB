@@ -1,6 +1,5 @@
 import * as React from "react";
 import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import html from "../img/conocimientos/html.png";
 import css from "../img/conocimientos/css.png";
@@ -30,8 +29,8 @@ const Conocimientos = () => {
 				sx={{
 					mt: 6,
 					display: "flex",
-					justifyContent: "center",
-					flexWrap: "wrap",
+					flexDirection: "column",
+					alignItems: "center",
 					boxShadow: 1,
 					backgroundColor: "#f5f5f5",
 					color: "#424242",
@@ -65,7 +64,7 @@ const Conocimientos = () => {
 						CONOCIMIENTOS
 					</Typography>
 				</div>
-				<Box
+				<Grid
 					sx={{
 						display: "flex",
 						justifyContent: "center",
@@ -81,7 +80,7 @@ const Conocimientos = () => {
 					<TarjetaConocimientos titulo="GIT" imagen={git} />
 					<TarjetaConocimientos titulo="GITHUB" imagen={github} />
 					<TarjetaConocimientos titulo="MUI" imagen={mui} />
-				</Box>
+				</Grid>
 			</Grid>
 		</Grid>
 	);
