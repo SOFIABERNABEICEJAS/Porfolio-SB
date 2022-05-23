@@ -38,7 +38,6 @@ const Nav = () => {
 					<Box
 						sx={{
 							m: 2,
-
 							display: { sm: "none", md: "none", lg: "none", xl: "none" },
 						}}
 					>
@@ -49,7 +48,7 @@ const Nav = () => {
 							aria-expanded={open ? "true" : undefined}
 							onClick={handleClick}
 							edge="end"
-							color="inherit"
+							sx={{ color: "#c2c2c2" }}
 							aria-label="menu"
 						>
 							<MenuIcon />
