@@ -45,7 +45,13 @@ const SobreMi = () => {
 					<Typography
 						variant="h3"
 						sx={{
-							mt: 4,
+							mt: {
+								xl: 5,
+								lg: 5,
+								md: 5,
+								sm: 5,
+								xs: 8,
+							},
 							mb: 5,
 							display: "flex",
 							justifyContent: "center",

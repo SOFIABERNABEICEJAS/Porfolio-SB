@@ -61,6 +61,7 @@ const Contacto = () => {
 					xl={5}
 					sx={{
 						m: 2,
+						justifyContent: "center",
 					}}
 				>
 					<Typography
