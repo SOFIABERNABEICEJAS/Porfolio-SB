@@ -154,7 +154,14 @@ const SobreMi = () => {
 								},
 							}}
 						>
-							Me recibí de Técnica en Laboratorio y trabajé siete años en un
+							Soy Desarrolladora, ex personal de salud dando un giro absoluto a
+							mi vida profesional. Hoy me dedico a programar y mi virtud
+							detallista y poder de creatividad me acompañan en cada paso que
+							doy. Soy amante de lo estetico y el correcto funcionamiento, así
+							como el buen trato y las cuentas claras. El mundo del desarrollo
+							web es infinito en aprendizaje y eso me lleva a cada día estar
+							actualizada con las últimas tecnologías.
+							{/* Me recibí de Técnica en Laboratorio y trabajé siete años en un
 							importante laboratorio clínico en Córdoba. Mi inquietud y
 							curiosidad por la tecnología hizo que incursionara en el mundo IT.
 							Realicé la carrera de desarrolladora Frontend de un año de
@@ -162,7 +169,7 @@ const SobreMi = () => {
 							porque te permite expandir la creatividad y aprender a resolver
 							desafíos, sino porque no existe un límite de aprendaje. Hoy estoy
 							en búsqueda de mi primer trabajo y me encantaría encontrar un
-							lugar que me permita crecer día a día y seguir aprendiendo.
+							lugar que me permita crecer día a día y seguir aprendiendo. */}
 						</Typography>
 					</Grid>
 				</Grid>
