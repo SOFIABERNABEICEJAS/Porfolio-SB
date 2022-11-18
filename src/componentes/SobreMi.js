@@ -158,8 +158,8 @@ const SobreMi = () => {
 							mi vida profesional. Hoy me dedico a programar y mi virtud
 							detallista y poder de creatividad me acompañan en cada paso que
 							doy. Soy amante de lo estetico y el correcto funcionamiento, así
-							como el buen trato y las cuentas claras. El mundo del desarrollo
-							web es infinito en aprendizaje y eso me lleva a cada día estar
+							como el buen trato y honestidad. El mundo del desarrollo web es
+							infinito en aprendizaje y eso me lleva a cada día estar
 							actualizada con las últimas tecnologías.
 							{/* Me recibí de Técnica en Laboratorio y trabajé siete años en un
 							importante laboratorio clínico en Córdoba. Mi inquietud y
